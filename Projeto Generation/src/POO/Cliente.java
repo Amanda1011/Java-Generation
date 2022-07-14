@@ -11,7 +11,8 @@ public class Cliente {
 	private String endereco;
 	private String cpf;
 	
-	//Métodos especiais
+	//Métodos 
+	
 	public void setNome(String nome) {
 		this.nome = nome;
 	}

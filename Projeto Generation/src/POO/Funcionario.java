@@ -5,6 +5,7 @@ console.*/
 package POO;
 
 public class Funcionario {
+	
 	//Atributos
 	private String nome;
 	private double salario;
@@ -12,11 +13,6 @@ public class Funcionario {
 
 	//Métodos
 	
-	public void estadoAtual (){
-		System.out.println("Nome: " + this.getNome());
-		System.out.println("Salário: " + this.getSalario());
-		System.out.println("Setor: " + this.getSetor());
-	}
 	public String getNome() {
 		return nome;
 	}
@@ -40,8 +36,4 @@ public class Funcionario {
 	public String getSetor() {
 		return this.setor;
 	}
-	
-
-
-
 }
