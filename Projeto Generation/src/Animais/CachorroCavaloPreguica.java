@@ -17,7 +17,7 @@ public class CachorroCavaloPreguica {
 		System.out.println("Idade: "+ cavalo.getIdade());
 		
 		Preguica preguica = new Preguica("Cigana", 11);
-		String somGrunir = preguica.grunir();
+		String somGrunir = preguica.grunhir();
 		System.out.println(somGrunir);
 		System.out.println("Nome da preguiça: "+ preguica.getNome());
 		System.out.println("Idade: "+ preguica.getIdade());
