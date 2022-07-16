@@ -1,4 +1,4 @@
-package Polimorfismo;
+package POO;
 /*3- Crie uma um programa para trabalhar com estoque de uma loja, o programa deverá
 trabalhar com Collection do tipo List do Java para manipular os dados desse estoque, o
 programa deverá atender as seguintes funcionalidades:
@@ -72,7 +72,7 @@ public class Collections {
 			break;
 			
 			case 0:
-				System.out.println("\nPrograma finalizado...");
+				System.out.println("\nPrograma finalizado....");
 			break;
 			default: 
 				System.out.println("\nOpção inválida!");
